@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+textarea {
+    width: 94%;
+    height: 136px;
+    margin-bottom: 28px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: purple; /* Change button color to purple */
+    color: white; /* Set text color to white for better contrast */
+    border: none; /* Remove border */
+}
+
+button:hover {
+    background-color:green; /* Change button color on hover */
+}
+
+.image{
+    text-align: center;
+    height: 39%;
+    width: 5%;
+}
